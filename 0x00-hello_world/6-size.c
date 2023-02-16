@@ -22,5 +22,5 @@ sizeof(d));
 printf("Size of a char: %lu byte(s)\n", (unasigned long)
 printf("Size of a char: %lu byte(s)\n", (unasigned long)
 sizeof(f));
-return (0)
+return (0);
 }
