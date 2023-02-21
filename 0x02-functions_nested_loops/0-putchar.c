@@ -1,22 +1,20 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+ *main -  Entry point
+ *print _putchar followed by a new line.
+ * Return: 0 success.
+*/
+
 int main(void)
 {
-    /* Use _putchar to print "_putchar" and a newline */
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+	char name[] = "_putchar";
+	int x;
 
-return (0);
+	for (x = 0; x <= 7; x++)
+	{
+		_putchar(name[x]);
+	}
+	_putchar('\n');
+	return (0);
 }
