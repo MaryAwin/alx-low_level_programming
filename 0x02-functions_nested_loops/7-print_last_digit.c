@@ -24,8 +24,4 @@ int print_last_digit(int n)
 		_putchar(l + 48);
 		return (l);
 	}
-}
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-
+{
